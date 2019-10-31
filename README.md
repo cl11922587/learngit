@@ -17,8 +17,12 @@ git  log   查看历史提交记录
 ```
 git reset --hard HEAD^  OR git reset --hard HEA~100  回退到上个版本或者 前100个版本
 ```
-git reflog  找到
+git reflog  找到所有历史记录
 ```
-
-
+git status  查看状态
+```
+git diff  对比工作区与版本库区别
+```
+git checkout  撤销修改，把文件恢复到上个版本状态
+```
 
